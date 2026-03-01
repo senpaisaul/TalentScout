@@ -1,0 +1,14 @@
+# Core framework
+streamlit>=1.32.0
+
+# LangChain 1.x + LangGraph 1.x + OpenAI partner package
+langchain>=1.0.0
+langchain-core>=1.0.0
+langchain-openai>=0.3.0
+langgraph>=1.0.0
+
+# Environment
+python-dotenv>=1.0.0
+
+# Type hints (required by LangGraph state TypedDicts)
+typing-extensions>=4.12.0
