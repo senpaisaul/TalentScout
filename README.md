@@ -7,6 +7,7 @@
 ## Table of Contents
 
 - [Overview](#overview)
+- [Live Demo](#LiveDemo)
 - [Features](#features)
 - [Architecture](#architecture)
 - [Project Structure](#project-structure)
@@ -30,6 +31,10 @@ TalentScout is a conversational AI hiring assistant built for **TalentScout**, a
 5. Concluding with a personalised summary and next-steps message
 
 The entire conversation is orchestrated as a **stateful graph** using LangGraph — each stage is an explicit node with typed state, making the flow inspectable, testable, and easy to extend.
+
+---
+
+## Live Demo: [talent-scout-v1.streamlit.app](https://talent-scout-v1.streamlit.app/)**
 
 ---
 
